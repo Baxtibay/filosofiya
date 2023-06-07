@@ -388,18 +388,389 @@ const answersDB = () => [
     d: "Keńislik"
   },
   {
-    quostion: "QUESTION ?",
-    a: "CORRECT",
-    b: "ANSWER",
-    c: "ANSWER",
-    d: "ANSWER"
+    quostion: "«Estetika» atamasın birinshi bolıp kim ilimiy aylanısqa kirgizgen ?",
+    a: "Aleksandr Gotlib Baumgarten",
+    b: "Vilgelm  Fridrix  Gegel",
+    c: "Gotfrid  Vilgelm  Leybnic",
+    d: "Gotfrid  Vilgelm  Leybnic"
   },
   {
-    quostion: "QUESTION ?",
-    a: "CORRECT",
-    b: "ANSWER",
-    c: "ANSWER",
-    d: "ANSWER"
+    quostion: "Estetikanıń  predmetin anıqlań: 1. Tábiyatta, jámiyette, iskusstvoda gózzallıqtıń orın alıwınıń barlıq formaları; 2.Insan tárepinen gózzallıqtı sezimlik ańlaw hám baqlawdıń barlıq formaları; 3. Gózzallıq nızamlarına sáykes dóretiwshiliktiń barlıq formaları.",
+    a: "1,2,3 ",
+    b: "1,2",
+    c: "1,3",
+    d: "1"
+  },
+  {
+    quostion: "Estetikanıń tómendegi tiykarġı wazıypaların anıqlań 1) insan tárepinen reallıqtı estetikalıq biliw procesin úyreniw;2) sociallıq turmıstıń hám insan minez-qulqınıń hár qıylı qubılısların estetikalıq bahalawdı islep shıġıw;3) insan tárepinen dún`yanıń kórkem ózlestiriliwi nızamların, kórkem dóretiwshilik nızamların biliw; 4) dún`yanı birpútin ózlestiriw, tábiyatta, jámiyette, iskusstvoda gózzallıqtıń orın alıwınıń barlıq formalarıni ózlestiriw;;5) insan hám jámiyettiń estetikalıq sanasın qáliplestiriw.",
+    a: "1,2,3,4,5 ",
+    b: "4,5",
+    c: "1,2,3",
+    d: "1,2,4,5"
+  },
+  {
+    quostion: "Estetikanıń strukturası komponentti anıqlań ?",
+    a: "Estetikalıq sana, estetikalıq iskerlik, estetikalıq múnásibet",
+    b: "Qabıllaw; sezimler; talaplar, talġam; ideallar",
+    c: "Gózzallıq hám kelbetsizlik, kóterińkilik hám páskeshlik, tragediyalıq hám kúlkililik",
+    d: "Qabıllaw; sezimler; talaplar, talġam; ideallar"
+  },
+  {
+    quostion: "Estetikanıń tiykarġı kategoriyaların aniqlan ?",
+    a: "Gózzallıq hám kelbetsizlik, kóterińkilik hám páskeshlik, tragediyalıq hám kúlkililik",
+    b: "Estetikalıq sana, estetikalıq iskerlik, estetikalıq múnásibet",
+    c: "Qabıllaw; sezimler; talaplar, talġam; ideallar",
+    d: "Estetikalıq sana, estetikalıq iskerlik, estetikalıq múnásibet"
+  },
+  {
+    quostion: "Reklama tuwralı ilim – bul ?",
+    a: "Advertologiya",
+    b: "Applikaciya",
+    c: "Skrapbuking",
+    d: "Dekorativ-ámeliy iskusstvo"
+  },
+  {
+    quostion: "Anglishan tilinde – joybarlaw, sızıw, oylaw, sonday-aq joybar, joba, súwret degen ?",
+    a: "Dizayn",
+    b: "Reklama",
+    c: "Dekupaj",
+    d: "Dekorativ"
+  },
+  {
+    quostion: "Latın tilinde  «bezeymen» degen ?",
+    a: "Dekorativ-ámeliy iskusstvo",
+    b: "Dizayn",
+    c: "Reklama",
+    d: "Estetika"
+  },
+  {
+    quostion: "Estetikalıq mádeniyattıń komponentleri ?",
+    a: "Qabıllaw; sezimler; talaplar, talġam; ideallar",
+    b: "Estetikalıq sana, estetikalıq iskerlik, estetikalıq múnásibet",
+    c: "Gózzallıq hám kelbetsizlik, kóterińkilik hám páskeshlik, tragediyalıq hám kúlkililik",
+    d: "Estetikalıq sana, estetikalıq iskerlik, estetikalıq múnásibet"
+  },
+  {
+    quostion: "Gózallıq haqqındaǵı táliymat ?",
+    a: "Estetika",
+    b: "Gnoseologiya",
+    c: "Logika",
+    d: "Etika"
+  }, /*tema 8 sorawlari */
+  {
+    quostion: "«Kоrrupciyaǵа qаrsı gúrеs hаqqındа»ǵı Ózbеkstаn Rеspublikаsı nızamı nеshе bаp hám statyadаn ibаrаt ?",
+    a: "6 bаp, 34 stаtya",
+    b: "4 bаp, 36 stаtya",
+    c: "5 bаp, 30 stаtya",
+    d: "3 bаp, 33 stаtya"
+  },
+  {
+    quostion: "Kоrrupciya bеlgilеrinе iyе bоlǵаn, islengenligi ushın nızаm hújjеtlеrindе juwаpkеrshilik názеrdе tutılǵаn qılmıs bul ?",
+    a: "kоrrupciyaǵа tiyisli huqıqbuzаrlıq",
+    b: "kоrrupciya",
+    c: "máplеr kеsilispesi",
+    d: "máplеr kеsilispesi"
+  },
+  {
+    quostion: "Kоrrupciyaǵа qаrsı gúrеs bоyınshа iskеrlikti tikkelley ámеlgе аsırıwshı mámlеkеt оrgаnlаrı qаysı qаtаrdа kórsеtilgеn: 1) Ózbеkstаn Rеspublikаsı Kоrrupciyaǵа qаrsı gúrеsiw agentligi 2) Ózbеkstаn Rеspublikаsı Bаs prоkurаturаsı;  3) Ózbеkstаn Rеspublikаsı Milliy qáwipsizlik хızmеti; 4) Ózbеkstаn Rеspublikаsı Ishki islеr ministrligi;  5) Ózbеkstаn Rеspublikаsı Ádillik minisrligi; 6) Ózbеkstаn Rеspublikаsı Bаs prоkurаturа jаnındаǵı Ekonomikalıq jınayatlarǵa qarsı gúresiw dеpаrtаmеnti; 7) Puqaralar ózin-ózi basqarıw organları 8) Mámleketlik emes shólkemler 9) Ǵalaba xabar quralları",
+    a: "1,2,3,4,5,6",
+    b: "7,8,9",
+    c: "1,3,5,7,9",
+    d: "1,2,3,4,5,6,7,8,9"
+  },
+  {
+    quostion: "Mámleketlik organı, mámleket qatnasındaǵı shólkem yaki puqaralardıń ózin-ózi basqarıw organı lawazımlı shaxsına óz lawazımlı shaxstıń óz xızmet dárejesinen paydalanǵan halda islewi lazım yaki múmkin bolǵan belgili háreketti para bergen shaxstıń máplerin gózlep orınlawı yaki orınlamawı esesine nızamǵa qayshı ekenligin bile turıp,  jeke ózi yamasa dáldálshı arqalı  materiallıq baylıqlar beriw yaki onı múlkiy mápdar etiw ?",
+    a: "Para beriw",
+    b: "Para alıw",
+    c: "Para alıs-beriste dáldálshılıq qılıw",
+    d: "kоrrupciya"
+  },
+  {
+    quostion: "Jеkе (tikkеlеy yaki wákillikli) mápdаrlıq shахstıń lаwаzım yaki хızmеt májbúriyatlаrın lаzım dárеjеdе оrınlаwǵа tásir kórsеtip аtırǵаn yamаsа tásir kórsеtiwi múmkin bоlǵаn hámdе jеkе mápdаrlıq pеnеn puqаrаlаrdıń, shólkеmlеrdiń, jámiyеttiń yaki mámlеkеttiń huqıqlаrı hám nızаmlı máplеri оrtаsındа qаrаmа-qаrsılıq júzеgе kеliwi múmkin bоlǵаn jаǵdаy ?",
+    a: "máplеr kеsilispesi",
+    b: "kоrrupciya",
+    c: "kоrrupciyaǵа tiyisli huqıqbuzаrlıq",
+    d: "kоrrupciyaǵа tiyisli huqıqbuzаrlıq"
+  },
+  {
+    quostion: "Para alıw yamasa beriw jónindegi shártlesiwge erisiwge qaratılǵan iskerlik, sonday-aq, mápdar shaxslardıń tapsırması menen tikkeley beriw ?",
+    a: "Para alıs-beriste dáldálshılıq qılıw",
+    b: "Para alıw",
+    c: "Para beriw",
+    d: "kоrrupciya"
+  },
+  {
+    quostion: "Mámleketlik organ, mámleket qatnaslarındaǵı shólkem yaki puqaralardıń ózin-ózi basqarıw organı lawazımlı shaxsınıń óz xızmet dárejesinen paydalanǵan halda islewi tiyis yamasa múmkin bolǵan málim bir háreketti para berip atırǵan shaxstıń máplerin gózlep orınlawı yamasa orınlamawı esesine jeke ózi yamasa dáldálshı arqalı nızamǵa qayshı ekenligin bile turıp, materiallıq baylıqlar alıwı yaki múlkiy mápdar bolıwı ?",
+    a: "Para alıw",
+    b: "Para beriw",
+    c: "Para alıs-beriste dáldálshılıq qılıw",
+    d: "kоrrupciya"
+  },
+  {
+    quostion: "Kоrrupciyaǵа qаrsı gúrеsiwdiń tiykаrǵı principlеri qаysı qаtаrdа kórsеtilgеn: 1) nızаmlılıq; 2) puqаrаlаr huqıqlаrı, еrkinliklеri hám nızаmlı máplеriniń ústinligi;  3) аshıqlıq hám tınıqlıq; 4) sistеmаlıq; 5) mámlеkеt hám puqаrаlıq jámiyеttiń shеrikligi;  7) kоrrupciyanıń аldın аlıwǵа tiyisli is-ilajlаr ústinligi;  8) juwapkеrshiliktiń аnıqlıǵı",
+    a: "1,2,3,4,5,6,7,8",
+    b: "1,2,3,4",
+    c: "1,2,3",
+    d: "1,2,3,4,5"
+  },
+  {
+    quostion: "Shахstıń óz lаwаzımı yaki хızmеt dárеjеsinеn jеkе máplеrin yamаsа ózgе shахslаrdıń máplеrin gózlеp mаtеriаllıq yaki matеriаllıq еmеs pаydа аlıw mаqsеtindе nızаmǵа qаyshı túrde usınıw ?",
+    a: "korrupciya",
+    b: "máplеr kеsilispesi",
+    c: "kоrrupciyaǵа tiyisli huqıqbuzаrlıq",
+    d: "máplеr kеsilispesi"
+  },
+  {
+    quostion: "Xalıq aralıq korrupciya qarsı gures kuni sánesin anıqlań ?",
+    a: "9 dekabr",
+    b: "2 mart",
+    c: "8 dekabr",
+    d: "4 yanvar"
+  }, /*10 tema*/
+  {
+    quostion: "Din — arabsha sóz bolıp, qanday mánilerdi ańlatadı. ?",
+    a: "barliq juwaplar duris",
+    b: "boysınıw",
+    c: "isenim",
+    d: "boysinbaw"
+  },
+  {
+    quostion: "Insan balası basına qanday da bir músiybet, qıyınshılıq túskende, ózine dinnen shalǵıtıwshı, kewlin jay etiwshi, jubatıwshı kúsh tapqan ?",
+    a: "Dinniń táselle beriwshilik wazıypası",
+    b: "Dinniń kommunikativlik wazıypası",
+    c: "Din birlestiriw wazıypası",
+    d: "ruwxıy-mánáwiy tárbiyalaw wazıypası"
+  },
+  {
+    quostion: "Insanlar arasında awızbirshilikti bekkemlewge xızmet etedi. Hárbir din sıyınıwshıların óz qaǵıydalarına ámel etiwge shaqıradı ?",
+    a: "Din birlestiriw wazıypası",
+    b: "Dinniń táselle beriwshilik wazıypası",
+    c: "Dinniń kommunikativlik wazıypası",
+    d: "Ruwxıy-mánáwiy tárbiyalaw wazıypası"
+  },
+  {
+    quostion: "Diniy úrp-ádet, máresim hám bayramlardı birgelikte ótkeriwge, aǵayinshilik, tanısshılıq, bir dinlilik qatnasıqların bekkemlewge shaqıradı ?",
+    a: "Dinniń kommunikativlik wazıypası",
+    b: "Dinniń táselle beriwshilik wazıypası",
+    c: "ruwxıy-mánáwiy tárbiyalaw wazıypası",
+    d: "Din birlestiriw wazıypası"
+  },
+  {
+    quostion: "Din аdаmzаt tаriyхındа: 1) ulıwmа insаniy ádеp-ikrаmlılıq ólshеmlеrin ózinе sińdirip аlıp, оlаrdı hámmmе ushın májburiy minеz-qulıq qаǵıydаlаrınа аylаntırǵаn. 2) аdаmlаrdı birgеliktе tаtıw jаsаwǵа kómеklеskеn; 3)  аdаmlаrdа isеnim sеzimin bеkkеmlеgеn hámdn turmıs sınаwlаrı, mаshqаlа hám qıyınshılıqlаrın jеńip ótiwlеrindе kúsh bаǵıshlаǵаn; 4)  ulıwmа аdаmzаtlıq hám ruwхıy qádiriyatlаrdı sаqlаp qаlıw hámdе аwlаddаn-аwlаdǵа jеtkiziwgе járdеm bеrgеn hám usı jоl mеnеn mádеniyat rаwаjınа úlkеn tásir kórsеtgеn ?",
+    a: "1,2,3,4",
+    b: "1,3",
+    c: "1,2",
+    d: "1"
+  },
+  {
+    quostion: "«Sekulyarizaciya» sózi latınsha  «saeculum»  sózinen  alınǵan bolıp, qanday mánini ańlatadı ?",
+    a: "Dúnyalıq",
+    b: "diniy",
+    c: "ilahiy",
+    d: "ilimiy"
+  },
+  {
+    quostion: "Diniy  shólkemler  mámleketten  ajıratılǵan  bolsa da,  din ?",
+    a: "jámiyetten  ajıratılmaǵan",
+    b: "mámleketten ajıratılmaǵan",
+    c: "shaxstan ajıratılǵan",
+    d: "jámiyetten  ajıratılǵan"
+  },
+  {
+    quostion: "Din – isenim hám ol …. ?",
+    a: "Hár bir adamniń shaxsiy isi esaplanadı",
+    b: "Mámleket isi esaplanadı",
+    c: "Jámiyet isi esaplanadı",
+    d: "Millet isi esaplanadı"
+  },
+  {
+    quostion: "Qanday jámiyetler hám birlespeler dúziw qadaǵan etiledi: 1) Konstituciyalıq dúzimdi kúsh penen ózgertiwdi maqseti etip qoyǵan. 2) Respublikanıń suverenitetine, pútinligine hám qáwipsizligine; 3) puqaralarınıń konstituciyalıq huqıqlarına hám erkinliklerine qarsı háreket etetuǵın;4) urıstı, sociallıq, milliy, rasalıq hám diniy óshpenlilikti násiyatlaytuǵın; 5) xalıqtıń den sawlıǵına hám ádep ikramlılıǵına qol qatatugıń 6) áskeriylestirilgen birlespeler,  7) milliy hám diniy belgileri boyınsha siyasiy partiyalar dúziw ?",
+    a: "1,2,3,4,5,6,7",
+    b: "5,6,7",
+    c: "1,2,3",
+    d: "1,2,3,4"
+  },
+  {
+    quostion: "Din qanday sezim ?",
+    a: "isenim",
+    b: "Gumanlanıw",
+    c: "Isendiriw",
+    d: "Taǵdirge tán beriw"
+  }, /*11- tema joqaridag'i*/
+  {
+    quostion: "Buddizm dininiń tiykarın salıwshısı ?",
+    a: "Siddhartha Gautama",
+    b: "Kun TSzi",
+    c: "Lао-TSzi",
+    d: "Konfuciy"
+  },
+  {
+    quostion: "Buddizm dinniń tiykarǵı ideyası - «Ómir- bul azap, aqiret». Onıń tort haqıqatın izbe-izlikte anıqlań?4) «qiynaqlardan qutılıw jolı bar ekenligi»",
+    a: "1,2,3,4",
+    b: "2,3,4,1",
+    c: "1,3,2,4",
+    d: "4,3,2,1"
+  },
+  {
+    quostion: "Buddizm dininiń muqaddes kitabı – bul ?",
+    a: "Tripitaka",
+    b: "Bibliya",
+    c: "Qurani Karim",
+    d: "Avesto"
+  },
+  {
+    quostion: "Хristiаnlik dini O`rtа Aziyaǵa, tiykarınan, Ózbekstanǵa eki jol menen kirip kelgen. Ekinshi jol ?",
+    a: "Orta Aziyanıń Rossiya tárepinen basıp alınıwı",
+    b: "Еvrоpаdа katoliklerge qarsı qaratılǵan reformatsiya háreketi",
+    c: "Xristianlıqqa úgitlewshi missionerlerdiń úgit-násiyatlaw iskerligi arqalı",
+    d: "Kаtоlik hám Prаvоslаv (оrtоdоks) shirkewlerge ajıralıp ketiwi aqibetinde"
+  },
+  {
+    quostion: "Buddа táliymatınıń tiykarında qanday ideyalar jatadı ?",
+    a: "«ómir – bul azap-aqibetler»",
+    b: "áep-ikramlılıq normaları",
+    c: "Meditatsiya",
+    d: "Danishpanliq"
+  },
+  {
+    quostion: "Хristiаnlıq dini tiykarshısı, payǵambarı ?",
+    a: "Iisus Хristоs",
+    b: "Bibi Mаryam",
+    c: "Аwliye Petr",
+    d: "Muwsa"
+  },
+  {
+    quostion: "Хristiаnlik dini O`rtа Aziyaǵa, tiykarınan, Ózbekstanǵa eki jol menen kirip kelgen. Birinshi jol ?",
+    a: "Xristianlıqqa úgitlewshi missionerlerdiń úgit-násiyatlaw iskerligi arqalı",
+    b: "Orta Aziyanıń Rossiya tárepinen basıp alınıwı",
+    c: "Еvrоpаdа katoliklerge qarsı qaratılǵan reformatsiya háreketi",
+    d: "Kаtоlik hám Prаvоslаv (оrtоdоks) shirkewlerge ajıralıp ketiwi aqibetinde"
+  },
+  {
+    quostion: "Xristian dini baǵdarların anıqlań ?",
+    a: "Katolik, provaslov, Protestant",
+    b: "Suniylik, shialik, xorijiylik",
+    c: "Xinayana, Maxayana, Lamanizm",
+    d: "Katolik, provaslov, Protestant"
+  },
+  {
+    quostion: "Xristian dini muqaddes kitabi ?",
+    a: "Bibliya",
+    b: "Qurani Karim",
+    c: "Tripitaka",
+    d: "Avesto"
+  },
+  {
+    quostion: "Buddizm dini bolimlerin aniqlan 1) meditatsiya 2) adep-ikramliliq normalari 3) danishpanliq ?",
+    a: "1,2,3",
+    b: "2,3",
+    c: "1,3",
+    d: "1"
+  }, /*12 - tema testi joqarida*/
+  {
+    quostion: "arab tilinde sıyınıw, baǵınıw –dúnyada keń tarqalǵan dinlerdiń biri - bul ?",
+    a: "Islam dini",
+    b: "Buddizm",
+    c: "Xristian dini",
+    d: "Zardushtiylik dini"
+  },
+  {
+    quostion: "Islam dini dereklerinde jazılıwına qaraǵanda qaysi jıldan baslap Muhammed alayhissalamǵa Alla taaladan ilahiy ayatlar ayan bola baslaydı ?",
+    a: "610-jıldan baslap",
+    b: "632-jıldan baslap",
+    c: "622-jıldan baslap",
+    d: "510-jıldan baslap"
+  },
+  {
+    quostion: "Arabsha, qıráát, oqıw —islam dinine sıyınıwshılardıń muqaddes kitabı ?",
+    a: "Quran",
+    b: "Shariat",
+    c: "Hadis",
+    d: "Mazhab"
+  },
+  {
+    quostion: "Quran jigirma úsh jıl dawamında bildirilgen bolıp, qansha súreden quralǵan ?",
+    a: "114 súre",
+    b: "622 súre",
+    c: "110 súre",
+    d: "610 súre"
+  },
+  {
+    quostion: "Qaysi jili hijrat (kóshiw) atın alıp, musılman jıl esabınıń baslanıw sánesi bolıp esaplanadı ?",
+    a: "622-jılı",
+    b: "632-jılı",
+    c: "610-jılı",
+    d: "571-jılı"
+  },
+  {
+    quostion: "Payǵambar Muhammad (s.a.w.)  óliminen  keyin onıń eń jaqın dawamshıları musılmanlar jámáátine basshılıq etti. Oalrdi izbe izlikte aniqlan? 1) Abu Bakir 2) Omar ibn  Xattab  3) Usman  ibn  Affon hám 4) Ali ibn Abu Talib",
+    a: "1,2,3,4",
+    b: "1,3,2,4",
+    c: "2,4,1,3",
+    d: "4,3,2,1"
+  },
+  {
+    quostion: "Ábu Hanifa atı menen  belgili  Nuǵman  ibn  Sobit Kufiy atı menen baylanıslı mazhabtı anıqlan ?",
+    a: "Hanafiylik",
+    b: "Hanbaliylik",
+    c: "Malikiylik",
+    d: "Hafiylik"
+  },
+  {
+    quostion: "Islam ádep-ikramlılıǵı menen bezeniw ushın kerekli bolǵan ilimlerdi úyretetuǵın taraw ?",
+    a: "Sufizm",
+    b: "Sunniylik",
+    c: "Shiallik",
+    d: "Shetelli"
+  },
+  {
+    quostion: "Qaysi táliymatı tiykarında «Qálbiń  Allada bolsın  da,  qolıń  jumıs  penen  bánt  bola  bersin», — degen uran jatadı ?",
+    a: "Naqshbandiylik",
+    b: "Yassawiya",
+    c: "Kubrawiya",
+    d: "Kubrawiya"
+  },
+  {
+    quostion: "Islam dininiń tiykarǵı bayramları bul 1) Ramazan hayıtı 2) Qurban hayıtları 3) Sunnet ?",
+    a: "1,2",
+    b: "1",
+    c: "2,3",
+    d: "1,3"
+  }, /*13 - tema testi joqarida*/
+  { /*Qosimsha*/
+    quostion: "Globallasıwdıń kóp qırlılıġı jáhán bazarına qanday ózgerisler alıp kirdi ?",
+    a: "barlıq juwaplar durıs",
+    b: "kórsetilgen tovarlar hám xızmetlerge jáhán narxları qaliplesedi",
+    c: "túrli tovarlar hám xızmetler jáhán bazarları jaratıldı",
+    d: "«rezonans  effekti» payda boldı"
+  },
+  {
+    quostion: "Latın tilinde qulıq, ádet degen mánini bildiredi ?",
+    a: "Moral",
+    b: "Utilitarizm",
+    c: "Evdemonizm",
+    d: "Gedonizm"
+  },
+  {
+    quostion: "Globalistika negizinde  qаndаy prоcessler jаtаdı ?",
+    a: "qаrаmа-qаrsı prоcessler hám integraciya",
+    b: "túrles pánlerdiń tutаsıwı",
+    c: "A hám B",
+    d: "Ilmiy biliwdiń qаtlаmlаsıwı"
+  },
+  {
+    quostion: "jámiyet ushın dástúriy bolǵan diniy qádiriyatlar hám aqidalıq tiykarlardı inkar etip, olarǵa qarsı bolǵan «ideyalar» hám ámel lerdi agressiv tárizde tarqatıw ?",
+    a: "Diniy ektremizm",
+    b: "Dogmatizm",
+    c: "Terrorizm",
+    d: "Ekstremizm"
+  },
+  {
+    quostion: "Orınlanıwı qatań májbúriy esaplanǵan is-háreketler ?",
+    a: "Parız",
+    b: "Adep",
+    c: "Hadal",
+    d: "Sunnet"
   },
 
 ];
@@ -410,30 +781,29 @@ answersDB().forEach((item, index) => {
 
   const container = document.createElement('div')
   container.innerHTML = `
-
-      <ul class="test-list">
-      <span class="quostion-text">${index + 1}. ${item.quostion}</span>
-            <li class="test-item">
-              <label>
-                <input type="radio" name="${index}"> ${item.a}
-              </label>
-            </li>
-            <li class="test-item">
-              <label>
-                <input type="radio" name="${index}"> ${item.b}
-              </label>
-            </li>
-            <li class="test-item">
-              <label>
-                <input type="radio" name="${index}"> ${item.c}
-              </label>
-            </li>
-            <li class="test-item">
-              <label>
-                <input type="radio" name="${index}"> ${item.d}
-              </label>
-            </li>
-        </ul>
+    <ul class="test-list">
+    <span class="quostion-text">${index + 1}. ${item.quostion}</span>
+      <li class="test-item">
+        <label>
+          <input type="radio" name="${index}"> ${item.a}
+        </label>
+      </li>
+      <li class="test-item">
+        <label>
+          <input type="radio" name="${index}"> ${item.b}
+        </label>
+      </li>
+      <li class="test-item">
+        <label>
+          <input type="radio" name="${index}"> ${item.c}
+        </label>
+      </li>
+      <li class="test-item">
+        <label>
+          <input type="radio" name="${index}"> ${item.d}
+        </label>
+      </li>
+      </ul>
   `
   form.append(container)
 })
